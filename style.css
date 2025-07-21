@@ -14,12 +14,14 @@ body {
   min-height: 100vh;
 }
 
+/* Background animation */
 @keyframes gradientBG {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
 
+/* Navbar */
 .navbar {
   background-color: rgba(31, 31, 46, 0.85);
   padding: 15px 40px;
@@ -60,6 +62,7 @@ body {
   padding-bottom: 2px;
 }
 
+/* Home Section */
 .home {
   padding: 80px 20px 60px;
   text-align: center;
@@ -95,6 +98,7 @@ body {
   opacity: 0.85;
 }
 
+/* Section layout */
 .section {
   padding: 60px 20px;
   text-align: center;
@@ -125,6 +129,7 @@ body {
   margin: auto;
 }
 
+/* Skills */
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -151,21 +156,24 @@ body {
   background-color: #00ffcc;
 }
 
+/* Projects */
 .project {
   margin: 20px auto;
   max-width: 600px;
   background: #111827;
-  color: #00ffcc;
   padding: 20px 30px;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0,255,204,0.4);
   transition: box-shadow 0.3s ease;
 }
 
-.project:hover {
-  box-shadow: 0 12px 25px rgba(0,255,204,0.75);
+/* Only heading green */
+.project h3 {
+  color: #00ffcc;
+  margin-bottom: 12px;
 }
 
+/* Keep bullets light */
 .project ul {
   list-style-type: disc;
   padding-left: 20px;
@@ -180,6 +188,7 @@ body {
   font-size: 16px;
 }
 
+/* Contact */
 #contact p {
   font-size: 18px;
   color: #ddd;
@@ -189,6 +198,7 @@ body {
   white-space: nowrap; 
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .navbar ul {
     flex-direction: column;
