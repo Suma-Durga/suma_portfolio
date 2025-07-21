@@ -14,7 +14,6 @@ body {
   min-height: 100vh;
 }
 
-/* Background animation */
 @keyframes gradientBG {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -98,7 +97,7 @@ body {
   opacity: 0.85;
 }
 
-/* Section layout */
+/* Sections */
 .section {
   padding: 60px 20px;
   text-align: center;
@@ -166,17 +165,12 @@ body {
   box-shadow: 0 6px 15px rgba(0,255,204,0.4);
   transition: box-shadow 0.3s ease;
 }
-.project:hover {
-  box-shadow: 0 12px 25px rgba(0,255,204,0.75);
-}
-
 
 .project h3 {
   color: #00ffcc;
   margin-bottom: 12px;
 }
 
-/* Keep bullets light */
 .project ul {
   list-style-type: disc;
   padding-left: 20px;
@@ -189,6 +183,11 @@ body {
 .project ul li {
   margin-bottom: 10px;
   font-size: 16px;
+}
+
+/* Hover effect: glow only */
+.project:hover {
+  box-shadow: 0 12px 25px rgba(0,255,204,0.75);
 }
 
 /* Contact */
