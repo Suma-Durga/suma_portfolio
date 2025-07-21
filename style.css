@@ -166,8 +166,11 @@ body {
   box-shadow: 0 6px 15px rgba(0,255,204,0.4);
   transition: box-shadow 0.3s ease;
 }
+.project:hover {
+  box-shadow: 0 12px 25px rgba(0,255,204,0.75);
+}
 
-/* Only heading green */
+
 .project h3 {
   color: #00ffcc;
   margin-bottom: 12px;
